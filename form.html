@@ -1,0 +1,80 @@
+<!DOCTYPE html5>
+<html5>
+    <head>
+        <title> Lab Form </title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <a href = "file:///C:/Users/hp/OneDrive/Desktop/homepage.html" Target = "_blank";>HOME PAGE</a>
+            <img class = "pic" src="C:\Users\hp\OneDrive\Desktop\Images fot HTML Assignment\Images\Lab-Test\lab-test.jpg"> 
+    <nav id="navigate" >
+        <div>
+            <form action="" id="labForm">
+                <h1><i><u text-align="center"> Lab Form (for Booking the Slot) </u></i></h1>
+                <h3><b>1. Your Contact Details:: </b></h3>
+        <table>
+            <tr>
+                <th><input type="text" placeholder="Full Name with Space"></th>
+                <th><input type="number" min="0" max="9999999999" placeholder="Patient ID if exits"></th>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th><input type="number" min="6000000000" max="9999999999" placeholder="Contact Number in 10 digits"></th>
+                <th><input type="email" placeholder="Email Address with @"></th>
+            </tr>
+        </table>
+                <h3><b>2. Address:: </b></h3>
+        <table>
+            <tr>
+                <th><input type="number" min="0" max="9999999999" placeholder="House Number"></th>
+                <th><input type="text" placeholder="Street"></th>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th><input type="text" placeholder="Area"></th>
+                <th><input type="text" placeholder="District"></th>
+            </tr>
+        </table>
+                <h3><b>3. Choose the Test Type:: (Check atleast one box without fail) :: </b></h3>
+                <input type="checkbox" id="opt1" name="option1" value="Complete blood count (CBC)">
+                <label for="opt1">Complete blood count (CBC)</label>
+                <br>
+                <input type="checkbox" id="opt2" name="option2" value="Complete Urine">
+                <label for="opt1">Complete Urine</label>
+                <br>
+                <input type="checkbox" id="opt3" name="option3" value="Lipid Profile">
+                <label for="opt1">Lipid Profile</label>
+                <br>
+                <input type="checkbox" id="opt4" name="option4" value="Thyroid Stimulating Harmone (TSH)">
+                <label for="opt1">Thyroid Stimulating Harmone (TSH)</label>
+                <br>
+                <input type="checkbox" id="opt5" name="option5" value="Glucose Test">
+                <label for="opt1">Glucose Test</label>
+                <br>
+                <h3><b>4. Do you want a hard copy of the report also? :: </b></h3>
+                <label for="a1">Yes</label>
+                <input type="radio" id="a1" name="option" value="Yes">
+
+                <br>
+                <label for="a2">No</label>
+                <input type="radio" id="a2" name="option" value="No">
+
+                <br>
+                <h3><b>5. Select Your Comfortable Date and Time :: </b></h3>
+                <label for="b1">Date</label>
+                <input type="date" id="b1" name="option1" value="date" placeholder="Date">
+
+                <br>
+                <label for="b2">Time</label>
+                <input type="time" id="b2" name="option1" value="time" placeholder="Time">
+
+                <br>
+                <button>RESET</button>
+                <button>SUBMIT</button>
+            </form>
+        </div>
+    </nav>
+    </body>
+</html5>
